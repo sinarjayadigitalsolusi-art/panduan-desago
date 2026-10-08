@@ -143,6 +143,7 @@ dl.tanya dd { margin: 4px 0 0 0; padding-left: 22px; }
 dl.tanya dd::before { content: 'J: '; font-weight: 800; color: var(--hijau); margin-left: -22px; }
 table.istilah td:first-child { font-weight: 700; white-space: nowrap; }
 @media screen { .web main { min-width: 0; } figure img[width] { max-width: 100%; height: auto; } }
+@media screen and (max-width: 900px) { .web td, .web th, .web code { overflow-wrap: anywhere; word-break: normal; } .web table.lebar { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; } }
 img[width]{height:auto}</style></head>
 <body class="web"><div class="tata">
 <nav class="samping" id="samping"><a class="merek" href="#sampul"><svg viewBox="0 0 48 48" width="30" height="30" aria-hidden="true"><rect width="48" height="48" rx="16" fill="#166534"/><path d="M11 25 24 14l13 11" fill="none" stroke="#fffdf7" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 37c0-7 4-11 10-12-1 6-4 11-10 12Z" fill="#f2c94c"/><path d="M24 37c0-6-3-9-8-10 .5 5 3 9 8 10Z" fill="#86c696"/></svg> <span>Panduan Desa<b>GO</b></span></a>
@@ -802,7 +803,7 @@ img[width]{height:auto}</style></head>
     <tr><td class="no"><span>4</span></td><td><b>Petunjuk kolom</b></td><td>Daftar kolom wajib dan cara pengisian.</td></tr>
   </table>
   <p><b>Kolom wajib:</b> <code>NO_KK</code>, <code>NIK</code>, <code>NAMA</code>, <code>JENIS_KELAMIN</code> (L/P), <code>TANGGAL_LAHIR</code> (DD-MM-YYYY), <code>AGAMA</code>, <code>STATUS_KAWIN</code>, <code>HUBUNGAN</code>. Kolom tambahan yang dikenali: TEMPAT_LAHIR, PENDIDIKAN, PEKERJAAN, GOLONGAN_DARAH, TANGGAL_KAWIN, KEWARGANEGARAAN, NAMA_AYAH, NAMA_IBU, ALAMAT, RT, RW, DUSUN, KODE_POS, NO_HP. Contoh isi:</p>
-  <table style="font-size:11.5px"><tbody class="awal"><tr><th>NO_KK</th><th>NIK</th><th>NAMA</th><th>JENIS_KELAMIN</th><th>TANGGAL_LAHIR</th><th>AGAMA</th><th>STATUS_KAWIN</th><th>HUBUNGAN</th><th>ALAMAT</th><th>RT</th><th>RW</th><th>DUSUN</th></tr><tr><td>3201262510260001</td><td>3201261205850001</td><td>HENDRA GUNAWAN</td><td>L</td><td>12-05-1985</td><td>ISLAM</td><td>KAWIN</td><td>KEPALA KELUARGA</td><td>KP. CIBEUREUM</td><td>005</td><td>002</td><td>Dusun II</td></tr></tbody>
+  <table class="lebar"><tbody class="awal"><tr><th>NO_KK</th><th>NIK</th><th>NAMA</th><th>JENIS_KELAMIN</th><th>TANGGAL_LAHIR</th><th>AGAMA</th><th>STATUS_KAWIN</th><th>HUBUNGAN</th><th>ALAMAT</th><th>RT</th><th>RW</th><th>DUSUN</th></tr><tr><td>3201262510260001</td><td>3201261205850001</td><td>HENDRA GUNAWAN</td><td>L</td><td>12-05-1985</td><td>ISLAM</td><td>KAWIN</td><td>KEPALA KELUARGA</td><td>KP. CIBEUREUM</td><td>005</td><td>002</td><td>Dusun II</td></tr></tbody>
     <tr><td>3201262510260001</td><td>3201265708880002</td><td>RINA MARLIANI</td><td>P</td><td>17-08-1988</td><td>ISLAM</td><td>KAWIN</td><td>ISTRI</td><td>KP. CIBEUREUM</td><td>005</td><td>002</td><td>Dusun II</td></tr>
     <tr><td>3201262510260001</td><td>3201260303150003</td><td>FAHRI GUNAWAN</td><td>L</td><td>03-03-2015</td><td>ISLAM</td><td>BELUM KAWIN</td><td>ANAK</td><td>KP. CIBEUREUM</td><td>005</td><td>002</td><td>Dusun II</td></tr>
   </table>
