@@ -109,7 +109,7 @@ ol.langkah > li::before { content: counter(langkah); position: absolute; left: 0
     .web section.sampul { margin: 28px 0; border-radius: 22px; min-height: 620px; }
     .web .tombol-menu { display: none; }
     @media (max-width: 900px) {
-        .web .tata { grid-template-columns: 1fr; }
+        .web .tata { grid-template-columns: minmax(0, 1fr); }
         .web nav.samping { position: fixed; inset: 0 auto 0 0; width: 86%; max-width: 320px; z-index: 50; transform: translateX(-105%); transition: transform .25s; box-shadow: 0 0 40px rgba(0,0,0,.2); }
         .web nav.samping.buka { transform: none; }
         .web .tombol-menu { display: inline-flex; position: fixed; right: 16px; bottom: 16px; z-index: 60; background: var(--hijau); color: #fff; border: 0; border-radius: 999px; padding: 12px 18px; font: 700 14px system-ui; box-shadow: 0 6px 20px rgba(0,0,0,.25); }
@@ -142,6 +142,7 @@ dl.tanya dt::before { content: 'T: '; color: var(--emas-tua); }
 dl.tanya dd { margin: 4px 0 0 0; padding-left: 22px; }
 dl.tanya dd::before { content: 'J: '; font-weight: 800; color: var(--hijau); margin-left: -22px; }
 table.istilah td:first-child { font-weight: 700; white-space: nowrap; }
+@media screen { .web main { min-width: 0; } figure img[width] { max-width: 100%; height: auto; } }
 img[width]{height:auto}</style></head>
 <body class="web"><div class="tata">
 <nav class="samping" id="samping"><a class="merek" href="#sampul"><svg viewBox="0 0 48 48" width="30" height="30" aria-hidden="true"><rect width="48" height="48" rx="16" fill="#166534"/><path d="M11 25 24 14l13 11" fill="none" stroke="#fffdf7" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 37c0-7 4-11 10-12-1 6-4 11-10 12Z" fill="#f2c94c"/><path d="M24 37c0-6-3-9-8-10 .5 5 3 9 8 10Z" fill="#86c696"/></svg> <span>Panduan Desa<b>GO</b></span></a>
