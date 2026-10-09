@@ -1,8 +1,8 @@
-# Buku Panduan Pengguna DesaGO
+# Buku Panduan Pengguna Swadesa
 
-Panduan langkah demi langkah aplikasi pemerintahan desa **DesaGO** — PT Sinar Jaya Digital Solusi.
+Panduan langkah demi langkah aplikasi pemerintahan desa **Swadesa** — PT Sinar Jaya Digital Solusi.
 
 - Baca daring: https://sinarjayadigitalsolusi-art.github.io/panduan-desago/
-- Unduh PDF: [Panduan-DesaGO.pdf](Panduan-DesaGO.pdf)
+- Unduh PDF: [Panduan-Swadesa.pdf](Panduan-Swadesa.pdf)
 
 Semua data dalam gambar adalah data fiktif (Desa Sukamaju).
